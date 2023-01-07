@@ -1,0 +1,224 @@
+:root {
+    --mainTransition: all 0.3s linear;
+    --mainColor: #22d3ee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/hero_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--mainColor);
+    position: relative;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 8vh;
+    min-height: 5vh;
+    position: sticky;
+    top: 0px; 
+    background: transparent;
+    border-bottom: 0px solid var(--mainColor);
+    background-image: url(./images/products_background.jpg);
+    opacity: 0.7;
+    
+}
+.navbar_container {
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    
+}
+
+.navbar_container div {
+    background-color: ;
+}
+
+/* ham here */
+
+.ham_menu {
+    cursor: pointer;
+}
+
+.cart_btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+i {
+    color: var(--mainColor);
+    font-size: 35px;
+}
+
+.total_items {
+    position: relative;
+    top: 16px;
+    right: -2px;
+    background-color: var(--mainColor);
+    padding: 1px 5px;
+    border-radius: 20% 20%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.logo_container {
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 1.5rem;
+    color: var(--mainColor);
+    
+}
+
+.hero_section {
+
+    width: 100%;
+    height: 92vh;
+    display: flex;
+
+}
+
+.banner {
+
+    width: 90%;
+    height: 90%;
+    border: 2px solid var(--mainColor);
+    background-color: #22d3ee31;
+    
+    border-radius: 10px 10px;
+    margin: auto;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.banner_btn {
+
+    border: 2px solid var(--mainColor);
+    padding: 10px 15px;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: var(--mainTransition);
+    
+
+
+}
+.banner_btn:hover{
+
+    background-color: #22d3ee;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.05);
+}
+
+.image_container img {
+
+    width: 260px;
+    height: 300px;
+    
+}
+
+.products {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+}
+
+
+
+.products_container {
+
+    width: 100%;
+    padding-bottom: 20px;
+    margin: auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(260px , 1fr));
+     grid-column-gap: 1rem;
+     grid-row-gap: 1rem;
+     
+     
+     
+     
+ }
+
+.section_title h2 {
+
+    margin: 60px 0px ;
+    font-size: 55px;
+    letter-spacing: 0.2em;
+}
+
+.product{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.buy_btn {
+
+  
+    border: 2px solid var(--mainColor);
+    border-radius: 5px 5px;
+    padding: 5px;
+    width: 80%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateX(100%);
+    transition: var(--mainTransition);
+
+}
+
+.buy_btn:hover{
+
+    background-color: #2daabdad;
+
+    
+}
+
+.buy_btn i {
+
+    margin-left: 15px;
+    
+}
+.image_container{
+
+    position: relative;
+    overflow: hidden;
+    transition: var(--mainTransition);
+    border: 2px solid var(--mainColor);
+    border-radius: 10px 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+
