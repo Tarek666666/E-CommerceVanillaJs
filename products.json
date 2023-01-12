@@ -1,0 +1,130 @@
+{
+    "items": [
+        {
+            "sys": { "id": "1" },
+            "fields": {
+                "title": "DOOM",
+                "price": 30.99,
+                "image": { "fields": { "file": { "url": "./images/Doom.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "2" },
+            "fields": {
+                "title": "Assassin Creed",
+                "price": 54.99,
+                "image": { "fields": { "file": { "url": "./images/creed.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "3" },
+            "fields": {
+                "title": "The Bat Man",
+                "price": 46.99,
+                "image": { "fields": { "file": { "url": "./images/bat-man.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "4" },
+            "fields": {
+                "title": "Battle Field",
+                "price": 59.99,
+                "image": { "fields": { "file": { "url": "./images/battle.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "5" },
+            "fields": {
+                "title": "Call Of Duty",
+                "price": 30.99,
+                "image": { "fields": { "file": { "url": "./images/call.png" } } }
+            }
+        },   {
+            "sys": { "id": "6" },
+            "fields": {
+                "title": "Dota 2",
+                "price": 13.99,
+                "image": { "fields": { "file": { "url": "./images/dota2.png" } } }
+            }
+        },  {
+            "sys": { "id": "7" },
+            "fields": {
+                "title": "Fallout",
+                "price": 32.99,
+                "image": { "fields": { "file": { "url": "./images/fallout.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "8" },
+            "fields": {
+                "title": "Final Fantazy 7",
+                "price": 22.99,
+                "image": { "fields": { "file": { "url": "./images/final.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "9" },
+            "fields": {
+                "title": "Ghost",
+                "price": 74.99,
+                "image": { "fields": { "file": { "url": "./images/ghost.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "10" },
+            "fields": {
+                "title": "God of War 3",
+                "price": 54.99,
+                "image": { "fields": { "file": { "url": "./images/god-war.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "11" },
+            "fields": {
+                "title": "Halo Infinity",
+                "price": 9.99,
+                "image": { "fields": { "file": { "url": "./images/halo.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "12" },
+            "fields": {
+                "title": "Red Dead Redemption 2",
+                "price": 54.99,
+                "image": { "fields": { "file": { "url": "./images/red-dead.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "13" },
+            "fields": {
+                "title": "God of War 3",
+                "price": 69.99,
+                "image": { "fields": { "file": { "url": "./images/god-war.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "14" },
+            "fields": {
+                "title": "The Last Of Us",
+                "price": 61.99,
+                "image": { "fields": { "file": { "url": "./images/last.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "15" },
+            "fields": {
+                "title": "Counter Strike",
+                "price": 58.99,
+                "image": { "fields": { "file": { "url": "./images/cs-go.png" } } }
+            }
+        },
+        {
+            "sys": { "id": "16" },
+            "fields": {
+                "title": "Leage of Legends",
+                "price": 6.99,
+                "image": { "fields": { "file": { "url": "./images/lol.png" } } }
+            }
+        }
+    ]
+}
